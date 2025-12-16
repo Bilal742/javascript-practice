@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    font-size: 22px;
+    padding: 0 12px;
+    cursor: pointer;
+}
+
+.btn {
+    padding: 10px 15px;
+    border: 2px solid black;
+    background: transparent;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* .burger {
+    width: 30px;
+    height: 22px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.burger span {
+    width: 100%;
+    height: 4px;
+    background: black;
+    transition: 0.3s;
+}
+
+.burger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.burger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.burger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+
+.dropdown-menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 100;
+    background: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+    width: 150px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: flex;
+}
+
+.dropdown-menu li {
+    padding: 8px;
+    font-size: 16px;
+    border-bottom: 1px solid #eee;
+}
+
+.dropdown-menu li:last-child {
+    border-bottom: none;
+}
+
+
+@media screen and (max-width: 786px) {
+
+    .list ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 200px;
+        background: white;
+        padding: 10px;
+    }
+
+    .list ul li {
+        padding: 10px 0;
+        text-align: left;
+    }
+
+    .list ul.active {
+        display: flex;
+    }
+
+    .btn {
+        display: none;
+        position: absolute;
+        top: 270px;
+        left: 5px;
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+
+    .btn.active {
+        display: block;
+    }
+
+    .burger {
+        display: flex;
+    }
+
+    .dropdown-menu {
+        position: static;
+        border: none;
+        background: transparent;
+        padding-left: 20px;
+        margin-top: 70px;
+
+    }
+
+    .dropdown-menu.active {
+        display: flex;
+        margin-top: 50px;
+    }
+
+} */
+/* .burger {
+    width: 30px;
+    height: 22px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.burger span {
+    width: 100%;
+    height: 4px;
+    background: black;
+    transition: 0.3s;
+} */
+
+.burger {
+    display: none;
+    justify-content: space-around;
+    flex-direction: column;
+    cursor: pointer;
+    width: 30px;
+    height: 22px;
+}
+
+.burger span {
+    width: 100%;
+    background: black;
+    height: 4px;
+    transition: all 0.5s;
+}
+
+.dropdown-menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 100;
+    background: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+    width: 150px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: flex;
+}
+
+.dropdown-menu li {
+    padding: 8px;
+    font-size: 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+.dropdown-menu li:last-child {
+    border-bottom: none;
+}
+
+.burger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.burger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.burger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+
+@media screen and (max-width:768px) {
+    .list ul {
+        max-height: 0;
+        overflow: hidden;
+        flex-direction: column;
+        position: absolute;
+        top: 100px;
+        left: 30px;
+        background-color: white;
+        transition: max-height 0.5s ease;
+    }
+
+    ul li {
+        padding: 10px 10px;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .list ul.active {
+        display: flex;
+        max-height: 500px;
+    }
+
+    .btn.active {
+        display: flex;
+        position: absolute;
+        top: 290px;
+        left: 30px;
+    }
+
+    .burger {
+        display: flex;
+    }
+
+    .list li.dropdown {
+        position: relative;
+    }
+
+    .dropdown-menu {
+        display: none;
+        position: absolute;
+        top: 20%;
+        left: 0;
+        background: white;
+        padding: 10px;
+        border: 1px solid #ddd;
+        width: 150px;
+        flex-direction: column;
+        margin-left: 100px;
+    }
+
+    .list li.dropdown:hover .dropdown-menu {
+        display: flex;
+    }
+}
