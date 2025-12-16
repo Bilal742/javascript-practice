@@ -21,4 +21,4 @@ It includes hands-on exercises, example code, and small projects for each topic.
 Clone this repository and explore topic-wise practice files:
 
 ```bash
-git clone https://github.com/<your-username>/javascript-complete-practice.git
+git clone https://github.com/Bilal742/javascript-practice.git
