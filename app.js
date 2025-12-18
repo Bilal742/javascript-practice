@@ -1,74 +1,3 @@
-// {
-//     var firstName = "Harry";
-// }
-
-// function name() {
-//     var firstName = "Harry";
-//     // console.log(firstName);
-// }
-
-// console.log(name());
-
-// Globle scope
-// var firstName = "Harry";
-// function name() {
-//     console.log(firstName);
-// }
-
-// {
-//     let num = 10;
-//     // console.log(num);  
-// }
-
-//     console.log(num);
-
-
-// let num = 10;
-// num++;
-// num--;
-// console.log(num);
-
-// let num = 09;
-// console.log(num);
-
-
-// let firstName = Symbol("Harry");
-// let last_name = Symbol("Harry");
-// let firstName = "Harry";
-// let last_name = "Harry";
-
-// console.log(firstName === last_name);
-
-
-// let name = "Bilal";
-// let num = 10;
-// console.log(name + num);
-
-// const obj = {
-//     name:"Bilal",
-//     age:18,
-//     city:"karahi"
-// }
-
-// obj["fond"] = "harry";
-
-// console.log(obj);
-
-// let num1 = 10
-// let num2 = 1;
-// // console.log(num1 + num2);
-// console.log(++num1);
-// console.log(num1++);
-
-// let num1 = 10;
-// console.log(++num1); // 11 → pehle increment hua phir print
-// console.log(num1);   // 11
-
-
-// let num2 = 10;
-// console.log(num2++); // 10 → pehle print, phir increment
-// console.log(num2);   // 11 → ab increment ho chuki
-
 // const burger = document.querySelector(".burger");
 // const navList = document.querySelector(".list ul");
 // const btn = document.querySelector(".btn");
@@ -84,32 +13,6 @@
 // dropdown.addEventListener("click", () => {
 //     dropdown.querySelector(".dropdown-menu").classList.toggle("active");
 // });
-
-// let assignment = 1;
-// // assignment += 10;
-// assignment -= 10;
-// console.log(assignment);
-
-// let comp1 = 30;
-// let comp2 = 20;
-
-// let output = "";
-
-// output += "comp1 == comp2 : " + (comp1 == comp2) + "<br>";
-// output += "comp1 != comp2 : " + (comp1 != comp2) + "<br>";
-// output += "comp1 !== comp2 : " + (comp1 !== comp2) + "<br>";
-// output += "comp1 === comp2 : " + (comp1 === comp2) + "<br>";
-
-// output += "comp1 > comp2 : " + (comp1 > comp2) + "<br>";
-// output += "comp1 < comp2 : " + (comp1 < comp2) + "<br>";
-
-// output += "comp1 >= comp2 : " + (comp1 >= comp2) + "<br>";
-// output += "comp1 <= comp2 : " + (comp1 <= comp2) + "<br>";
-
-// output += "comp1 > comp2 && comp1 > comp2 : " + (comp1 > comp2 && comp1 > comp2) + "<br>";
-// output += "comp1 > comp2 || comp1 < comp2 : " + (comp1 > comp2 || comp1 < comp2) + "<br>";
-
-// output += "!false : " + (!false);
 
 // document.getElementById("output").innerHTML = output;
 
@@ -128,6 +31,43 @@
 // dropdown.addEventListener("click", () => {
 //     dropdown.querySelector(".dropdown-menu").classList.toggle("active");
 // });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // let a = prompt("Hey whats your age?");
