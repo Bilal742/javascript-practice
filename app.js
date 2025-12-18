@@ -356,14 +356,14 @@
 
 // console.log(num(a, b));
 
-let Obj = {
-    harry: 50,
-    rohan: 10,
-    subham: 8,
-    kainat: 80,
-    suman: 80,
-    amna: 6
-}
+// let Obj = {
+//     harry: 50,
+//     rohan: 10,
+//     subham: 8,
+//     kainat: 80,
+//     suman: 80,
+//     amna: 6
+// }
 
 // for (let i = 0; i < Object.keys(Obj).length; i++) {
 //     console.log("This marks of " + Object.keys(Obj)[i] + " are " + Obj[Object.keys(Obj)[i]]);
@@ -407,30 +407,3 @@ let Obj = {
 // console.log(meno(2, 4, 5,));
 
 
-// Escape sequence character
-// let name = "Bil\tal"
-// console.log(name);
-// console.log('It\rs my book');
-// console.log("Name:\tBilal\nAge:\t20\nCountry:\tPakistan");
-
-
-// let name = "Bilal";
-// console.log(name.slice(0,5));
-
-// let array = ["Orange", "Mango", "Banana", "Apple", true, 50];
-// array[6] = 30
-// console.log(array[0]);
-// console.log(array[1]);
-// console.log(array[2]);
-// console.log(array[3]);
-// console.log(array[4]);
-// console.log(array[5]);
-// console.log(array[6]);
-
-// console.log("The length of arrays " + array.length);
-
- 
-// for (let i = 0; i < array.length; i++) {
-//     const element = array[i];
-//     console.log(element);
-// };
