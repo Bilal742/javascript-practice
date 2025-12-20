@@ -107,20 +107,45 @@ Perfect for students, beginners, and anyone who wants to strengthen their JavaSc
 javascript-practice/
 │
 ├── Alert and variable/
+│   └── app.js
+│
 ├── Arrays/
+│   └── app.js
+│
 ├── loops/
+│   └── app.js
+│
 ├── Assign compare logic operators/
+│   └── app.js
+│
 ├── Console Object/
+│   └── app.js
+│
 ├── functions/
+│   └── app.js
+│
 ├── map-filter-reduce/
+│   └── app.js
+│
 ├── Escape sequence character/
-└── Globle and block scop and increment decrement/
+│   └── app.js
+│
+├── Globle and block scop and increment decrement/
+│   └── app.js
+│
 ├── Hero section/
+│   └── app.js
+│
 ├── If_eles_condition/
+│   └── app.js
+│
 ├── Practice_set_on_arrays/
-├── README.md/
-├── app.js/
-├── style.css/
+│   └── app.js
+│
+├── README.md
+├── app.js
+└── style.css
+
 ```
 ---
 
@@ -128,6 +153,7 @@ javascript-practice/
 
 1. Clone the repository:
    ```bash
+   
    git clone https://github.com/Bilal742/javascript-practice.git
    
 ## ⭐ Support
