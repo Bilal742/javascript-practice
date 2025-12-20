@@ -5,7 +5,7 @@ alert("Hello Bilal");
 var promt = prompt("Enter your name");
 var name = "bilal " + promt;
 console.log(name);
-
+ 
 name = "harry"
 console.log(name);
 
