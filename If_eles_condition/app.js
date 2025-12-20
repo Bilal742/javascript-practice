@@ -18,7 +18,7 @@ if (value == "") {
     else {
         alert("You can drive now your age is 18");
     }
-}
+};
 
 a <= 14 
   ? alert("You are not allowed to drive") 
