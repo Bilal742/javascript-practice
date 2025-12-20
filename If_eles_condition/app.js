@@ -8,15 +8,15 @@ if (value == "") {
 } else {
     let age = parseInt(value);
     if (age <= 14) {
-        alert("not a drive...")
+        alert("not a drive...");
     }
 
     else if (age <= 15) {
-        alert("Abhi nhi 2 saal bt")
+        alert("Abhi nhi 2 saal bt");
     } 
 
     else {
-        alert("You can drive now your age is 18")
+        alert("You can drive now your age is 18");
     }
 }
 
@@ -29,7 +29,7 @@ a <= 14
 
 a >= 18 && a >= 10 ?
     alert("You can drive now...")
-    : alert("You not a driver")
+    : alert("You not a driver");
 
 let result = 10 + 10 + 5 * 2 + 20;
 console.log(result);
@@ -43,7 +43,7 @@ while (value.trim() === "") {
         alert("Please enter your age, you cancelled the input!");
         value = "";
     }
-}
+};
 
 let age = parseInt(value.trim());
 
@@ -55,4 +55,4 @@ else if (age <= 15) {
 }
 else {
     alert("You can drive now, your age is 18+");
-}
+};
