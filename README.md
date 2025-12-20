@@ -106,15 +106,21 @@ Perfect for students, beginners, and anyone who wants to strengthen their JavaSc
 ```bash
 javascript-practice/
 │
-├── basics/
-├── conditions/
+├── Alert and variable/
+├── Arrays/
 ├── loops/
-├── arrays/
-├── objects/
+├── Assign compare logic operators/
+├── Console Object/
 ├── functions/
 ├── map-filter-reduce/
-├── advanced/
-└── practice-tasks/
+├── Escape sequence character/
+└── Globle and block scop and increment decrement/
+├── Hero section/
+├── If_eles_condition/
+├── Practice_set_on_arrays/
+├── README.md/
+├── app.js/
+├── style.css/
 ```
 ---
 
