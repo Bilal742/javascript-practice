@@ -6,7 +6,7 @@ assignment -= 10;
 console.log(assignment);
 
 let comp1 = 30;
-let comp2 = 20;
+let comp2 = 20; 
 
 let output = "";
 
