@@ -20,7 +20,7 @@ while (runAgain) {
         (userChoice === "snake" && computerChoice === "gun") ||  
         (userChoice === "water" && computerChoice === "snake") ||
         (userChoice === "gun" && computerChoice === "water")
-    ) {
+    ) { 
         alert("You lose! 😢");
     } else {
         alert("Invalid input! Please type Snake, Water, or Gun.");
